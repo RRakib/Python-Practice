@@ -2,7 +2,7 @@
 # name = "john"
 # age = "20"
 # status = "new"
-# print(name + " is " + age + " years old. And he is " + status + " to the hospital")
+# print(f"{name} is {age} years old. And he is {status} to the hospital")  ## f"" easy concatanation
 
 #### Exercise 2
 # name = input("Who is this? ")
