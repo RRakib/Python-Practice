@@ -50,52 +50,6 @@
 # -----------------------------------------------------------
 
 
-#### Loop
-# # While Loop
-# i = 1
-# while i < 10:
-#     print(i)
-#     i += 1
-# -----------------------------------------------------------
-# # While Loop Guess Number Game ****************************
-# print("Guess the number between 0-9")
-# attempt = 3
-# startig_point = 1
-# correct_guess = 9
-# while startig_point <= attempt:
-#     guess = input("Guess: ")
-#     if int(guess) != correct_guess:
-#         print(f"Better luck next time. (Attempt left: {attempt - startig_point })")
-#         startig_point += 1
-#     else:
-#         print("You got it!!!!!")
-#         break
-# else:
-#     print("You failed...")
-# -----------------------------------------------------------
-# # While Loop Car Game
-game = ""
-while game != "Quit":
-    game = input("Command > ")
-    if game == "Start" or game == "start":
-        print("Car started. Get READY!")
-    elif game == "Stop" or game == "stop":
-        print("Stopping the car")
-    elif game == "Quit" or game == "quit":
-        print("Quitting the game")
-        break
-    elif game == "Help" or game == "help":
-        print("""
-                Start - to start the game 
-                Stop - to stop the game
-                Quit - to quit the game 
-            """)
-    else:
-        print("Command not found. Please write 'Help' to get instructions")
-
-
-
-
 #### Logical Operator
 # # Logical "and"
 # val_1 = True
