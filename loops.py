@@ -5,6 +5,8 @@
 #     print(i)
 #     i += 1
 # -----------------------------------------------------------
+
+
 # # While Loop Guess Number Game ****************************
 # print("Guess the number between 0-9")
 # attempt = 3
@@ -49,6 +51,8 @@
 #     else:
 #         print("Command not found. Please write 'Help' to get instructions")
 # -----------------------------------------------------------
+
+
 # # For IN Loop
 # for char in ["Python" , "React" , "Node"]:
     # print(char)
@@ -65,6 +69,8 @@
 # for nums in range(10 ,22 ,2):
 #     print(nums)
 # -----------------------------------------------------------
+
+
 #### Exercise 1
 # total = 0
 # all_items = [55 , 100 , 125]
@@ -78,4 +84,23 @@
 # for items in items_cost:
 #     sumV += int(items)
 # print(sumV)
+# -----------------------------------------------------------
+
+
+# # Nested Loops
+#### Exercise 2
+# F_Shape = [ 5 , 2 , 5 , 2 , 2]
+# for items in F_Shape:
+#     x = 0
+#     print("")
+#     while x < items:
+#         print("X" , end="")
+#         x += 1
+# -----------------------------------------------------------
+# F_Shape = [ 1 , 1 , 1 , 5]
+# for items in F_Shape:
+#     output = ""
+#     for numbers in range(items):
+#         output += "X"
+#     print(output)
 # -----------------------------------------------------------
