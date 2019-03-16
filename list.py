@@ -82,6 +82,13 @@
 #     if numbers.count(number) > 1:
 #         numbers.remove(number)
 # print(numbers)
+# # # # # # # # # # # # # # # # # # # # # # # # OR OR OR OR OR
+# numbers = [ 1 , 2 , 2 , 3 , 10 , 4 , 6 , 10 , 4 , 6 , 10]
+# numbers2 = []
+# for number in numbers:
+#     if number not in numbers2:
+#         numbers2.append(number)
+# print(numbers2)
 # -----------------------------------------------------------
 
 
