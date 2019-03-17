@@ -6,6 +6,9 @@
 #     "place" : "Shavar"
 # }
 # print(frineds.get("name" , "User Not Found"))
+# -----------------------------------------------------------
+
+
 #### Exercise 1
 # numbers = {
 #     0 : "Zero",
@@ -24,5 +27,6 @@
 # for number in phone:
 #     phoneNumber += f"{numbers.get(int(number))} "
 # print(phoneNumber)
+# -----------------------------------------------------------
 
 
