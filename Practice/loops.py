@@ -1,13 +1,14 @@
-#### Loop
-# # While Loop
+########## While Loop
 # i = 1
 # while i < 10:
 #     print(i)
 #     i += 1
+# testVariable = 1
+# while testVariable == 1:
+#     store = int(input("Enter a number: " ))
+#     print("You entered: ", store)
+# print("One entry taken")
 # -----------------------------------------------------------
-
-
-# # While Loop Guess Number Game ****************************
 # print("Guess the number between 0-9")
 # attempt = 3
 # startig_point = 1
@@ -23,7 +24,6 @@
 # else:
 #     print("You failed...")
 # -----------------------------------------------------------
-# # While Loop Car Game *************************************
 # started = False
 # while True:
 #     game = input("Command > ")
@@ -52,8 +52,7 @@
 #         print("Command not found. Please write 'Help' to get instructions")
 # -----------------------------------------------------------
 
-
-# # For IN Loop
+########## For Loop
 # for char in ["Python" , "React" , "Node"]:
     # print(char)
 # -----------------------------------------------------------
@@ -69,9 +68,17 @@
 # for nums in range(10 ,22 ,2):
 #     print(nums)
 # -----------------------------------------------------------
+# for a in list(range(5)):
+#     print(a)
+# -----------------------------------------------------------
+# for a in tuple(range(5)):
+#     print(a)
+# -----------------------------------------------------------
+# for letter in 'Python':
+#     print(letter)
+# -----------------------------------------------------------
 
-
-#### Exercise 1
+########## Exercise 1
 # total = 0
 # all_items = [55 , 100 , 125]
 # for item_cost in all_items:
@@ -86,9 +93,7 @@
 # print(sumV)
 # -----------------------------------------------------------
 
-
-# # Nested Loops
-#### Exercise 2
+########## Exercise 2
 # F_Shape = [ 5 , 2 , 5 , 2 , 2]
 # for items in F_Shape:
 #     x = 0
