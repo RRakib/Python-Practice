@@ -54,7 +54,7 @@
 
 ########## For Loop
 # for char in ["Python" , "React" , "Node"]:
-    # print(char)
+# print(char)
 # -----------------------------------------------------------
 # for char in "Python":
 #     print(char)
@@ -77,6 +77,24 @@
 # for letter in 'Python':
 #     print(letter)
 # -----------------------------------------------------------
+# user_input = int(input("Enter a nunber: "))
+# tuple = (1, 2, 3, 4, 5)
+# for number in tuple:
+#     if user_input == number:
+#         print("Number Found")
+#         break
+# else:
+#     print("Number not found")
+# -----------------------------------------------------------
+# for letter in "Python":
+#     if letter == "o":
+#         break
+#     print(letter)
+# -----------------------------------------------------------
+# for letter in "Python":
+#     if letter == "t":
+#         continue
+#     print(letter)
 
 ########## Exercise 1
 # total = 0
