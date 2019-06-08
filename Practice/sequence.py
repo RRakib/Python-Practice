@@ -28,3 +28,21 @@
 # print(concatanated_tuple)
 # del concatanated_tuple
 # print(concatanated_tuple)
+# print(min(tuple1))
+
+############### Dictionaries
+# dictionary1 = {"first_name": "Rakib", "last_name": "Uddin", "age": 24}
+# print("Previous Dictionary: ", dictionary1)
+# dictionary1["age"] = 23
+# print("Updated Dictionary: ", dictionary1)
+# del dictionary1["age"]
+# print("After deletion: ", dictionary1)
+# print("Length of this dictionary: ", len(dictionary1))
+# print("Type of this dictionary is : ", type(dictionary1))
+# print("String of this dictionary: ", str(dictionary1))
+# dictionary1.clear()
+# print(dictionary1)
+# copy_dictionary = dictionary1.copy()
+# print("This is copied dictionary: ", copy_dictionary)
+# print("Dictionary values:", dictionary1.values())
+# print("Dictionary keys:" , dictionary1.keys())
