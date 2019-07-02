@@ -1,13 +1,15 @@
 import pymysql
-db = pymysql.connect("localhost","Rakib","k9AfcdFi","TESTDB" )
+db = pymysql.connect("localhost","Rakib","password","TESTDB" )
 cursor = db.cursor()
 
 delete_exixting_table = "drop table if exists EMPLOYEE "
 
-create_new_table = """create table EMPLOYEE (
-    _id int auto_increment primary key,
-    name varchar(20) not null
-)"""
+create_new_table = """CREATE TABLE EMPLOYEE (
+   FIRST_NAME  CHAR(20) NOT NULL,
+   LAST_NAME  CHAR(20),
+   AGE INT,  
+   SEX CHAR(1),
+   INCOME FLOAT )"""
 
 try:
     cursor.execute(delete_exixting_table)
