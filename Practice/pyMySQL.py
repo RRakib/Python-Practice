@@ -1,31 +1,32 @@
 import pymysql
-db = pymysql.connect("localhost","Rakib","password","TESTDB" )
-cursor = db.cursor()
 
-delete_exixting_table = "drop table if exists EMPLOYEE "
+connection = pymysql.connect('localhost', 'Rakib', 'password', 'TESTDB')
+cursor = connection.cursor()
 
-create_new_table = """CREATE TABLE EMPLOYEE (
-   FIRST_NAME  CHAR(20) NOT NULL,
-   LAST_NAME  CHAR(20),
-   AGE INT,  
-   SEX CHAR(1),
-   INCOME FLOAT )"""
-insert_data = """INSERT INTO EMPLOYEE(FIRST_NAME , LAST_NAME, AGE, SEX, INCOME) 
-                 VALUES('RAKIB','UDDIN','23','M','20000')"""
-fetch_all_data = """SELECT * FROM EMPLOYEE"""
+first_name = input('Enter Your First Name: ')
+last_name = input('Enter Your Last Name: ')
+gender = input('Enter Your Gender: ')
+phone_number = int(input('Enter Your Phone Number: '))
+
+drop_existing_table = """DROP TABLE IF EXISTS EMPLOYEE"""
+create_table = """CREATE TABLE EMPLOYEE(
+                  first_name CHAR(20) NOT NULL,
+                  last_name CHAR(20) NOT NULL,
+                  gender CHAR(8) NOT NULL,
+                  phone_number INT)"""
+insert_data = """INSERT INTO EMPLOYEE (first_name, last_name, gender, phone_number)
+                 VALUES ('{}','{}','{}','{}')""".format(first_name, last_name, gender, phone_number)
+display_data = """SELECT * FROM EMPLOYEE"""
 
 try:
-    cursor.execute(delete_exixting_table)
-    print('Existing table has been deleted')
-    cursor.execute(create_new_table)
-    print('New table has been created')
+    cursor.execute(drop_existing_table)
+    cursor.execute(create_table)
     cursor.execute(insert_data)
-    print('Insertion of data completed')
-    cursor.execute(fetch_all_data)
-    data_storage = cursor.fetchall()
-    print('First Name:' ,data_storage[0][0])
-    print('Last Name:' , data_storage[0][1])
-except Exception as e:
-    print('Exception is:' , e)
+    cursor.execute(display_data)
+    print(cursor.fetchall())
+    print('Table Created')
+except Exception as E:
+    print('Error Occured', E)
+    connection.rollback()
 
-db.close()
+connection.close()

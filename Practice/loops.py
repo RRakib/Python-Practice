@@ -53,8 +53,8 @@
 # -----------------------------------------------------------
 
 ########## For Loop
-# for char in ["Python" , "React" , "Node"]:
-# print(char)
+for char in ["Python" , "React" , "Node"]:
+    print(char)
 # -----------------------------------------------------------
 # for char in "Python":
 #     print(char)
