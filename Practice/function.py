@@ -51,11 +51,33 @@
 # print(emoji(line))
 
 ############# Recursion Function
-def recursion_fun(data):
-    if data == 0:
-        result = 1
-    else:
-        result = data*recursion_fun(data - 1)
-    return result
+# def recursion_fun(data):
+#     if data == 0:
+#         result = 1
+#     else:
+#         result = data*recursion_fun(data - 1)
+#     return result
+# print(recursion_fun(8))
 
-print(recursion_fun(8))
+############# Lambda Function
+# lambda_fun = lambda n:n**3
+# print(lambda_fun(2))
+### Even Odd Number
+# even_odd = lambda num: 'Even' if num%2==0 else 'Odd'
+# print(even_odd(5))
+### Sum of 2 Number
+# sum_of_2 = lambda num1,num2: num1+num2
+# print(sum_of_2(2,5))
+### Filter Form List
+# list1 =[1,2,3,4,56,7]
+# x = list(filter(lambda num: num%2 == 0, list1))
+# print(x)
+### Map Method
+# list1 =[1,2,3,4,56,7]
+# new_list = list(map(lambda num:num*2, list1))
+# print(new_list)
+### Reduce Method
+# from functools import reduce
+# list1 =[1,2,3,4,56,7]
+# reduce_list = reduce(lambda num1,num2:num1+num2, list1)
+# print(reduce_list)
