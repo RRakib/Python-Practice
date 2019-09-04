@@ -49,3 +49,13 @@
 #     return output
 # line = input("> ")
 # print(emoji(line))
+
+############# Recursion Function
+def recursion_fun(data):
+    if data == 0:
+        result = 1
+    else:
+        result = data*recursion_fun(data - 1)
+    return result
+
+print(recursion_fun(8))
