@@ -81,3 +81,15 @@
 # list1 =[1,2,3,4,56,7]
 # reduce_list = reduce(lambda num1,num2:num1+num2, list1)
 # print(reduce_list)
+
+############## Decorator Function
+def fun1(data):
+    return data
+def decFun(fun):
+    def operatFun():
+        result = fun
+        print(result)
+        return 2 * result
+    return operatFun
+x = decFun(fun1(5))
+print(x())
