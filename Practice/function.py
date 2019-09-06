@@ -124,3 +124,9 @@
 # def div_fun(a, b):
 #     return a/b
 # print(div_fun(15,3))
+############## Generator Function
+# def generator_fun(x,y):
+#     while x<y:
+#         yield x
+#         x+=1
+# print(tuple(generator_fun(0, 10)))
