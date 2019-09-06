@@ -83,13 +83,44 @@
 # print(reduce_list)
 
 ############## Decorator Function
-def fun1(data):
-    return data
-def decFun(fun):
-    def operatFun():
-        result = fun
-        print(result)
-        return 2 * result
-    return operatFun
-x = decFun(fun1(5))
-print(x())
+# def fun1(data):
+#     return data
+# def decFun(fun):
+#     def operatFun():
+#         result = fun
+#         print(result)
+#         return 2 * result
+#     return operatFun
+# x = decFun(fun1(5))
+# print(x())
+### Using @Decorator
+# def dec_fun(fun):
+#     def operat_fun(data):
+#         result = fun(data)
+#         return 2 * result
+#     return operat_fun
+# @dec_fun
+# def fun1(data):
+#     return data
+# print(fun1(5))
+### Decorator String
+# def decor_fun(fun):
+#     def add_str(name):
+#         return fun(name) + '. How are you?'
+#     return add_str
+# @decor_fun
+# def take_name(name):
+#     return 'Hello ' + name
+# print(take_name('Rakib'))
+### Decorator Validation
+# def dec_fun(fun):
+#     def check_o(a,b):
+#         if b == 0:
+#             print("Can't device by 0")
+#             return
+#         return fun(a, b)
+#     return check_o
+# @dec_fun
+# def div_fun(a, b):
+#     return a/b
+# print(div_fun(15,3))
