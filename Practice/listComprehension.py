@@ -9,3 +9,10 @@
 # b = [2,3,4,5,6]
 # list = [a[x] * b[x] for x in range(len(a))]
 # print(list)
+### Common Element Of 2 List
+# a = [1,2,3,4,5]
+# b = [2,3,4,5,6]
+# result = [x for x in a if x in b]
+# print(result)
+# for x in b:
+#     print(x)

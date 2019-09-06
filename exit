@@ -1,0 +1,209 @@
+[33mcommit aa1565bb6ee3cd8fcef726ab6e54f5ce748f27ab[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Fri Sep 6 22:50:34 2019 +0600
+
+    List Comprehension
+
+[33mcommit 20734c11da558661257975be7fbb8bcc51620b93[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Fri Sep 6 13:35:30 2019 +0600
+
+    Generator Function
+
+[33mcommit ea2acdf85096e014479fb24dce132e6a13897dff[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Fri Sep 6 12:30:17 2019 +0600
+
+    Decorator
+
+[33mcommit b60415c181e2f50e304d80fa3cc2de5752b69db4[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Thu Sep 5 23:55:57 2019 +0600
+
+    Decorator Function
+
+[33mcommit 79ea4d0d8833377ab23abd785f558cd39d6d5100[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Wed Sep 4 23:32:37 2019 +0600
+
+    Lambda Function
+
+[33mcommit 256e0c2c111ebfedb2868528f418ec508124ab8f[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Wed Sep 4 20:39:11 2019 +0600
+
+    Recursion Function
+
+[33mcommit 6361a3187d68d7870845be098d3b6f749ad001e1[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Fri Jul 12 19:46:48 2019 +0600
+
+    Dynamic Data Insertion
+
+[33mcommit ea5f83017fb6e1e4a3f93bfaac3ac188d70e3d03[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Tue Jul 2 23:34:16 2019 +0600
+
+    PymySQL
+
+[33mcommit fcbccb91f6a9d493611dbb9ba87aabc6f20a69c0[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Tue Jul 2 23:13:31 2019 +0600
+
+    PymySQL
+
+[33mcommit 527a31b586152a7880e26a9c43fea0a27b7d24c3[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sun Jun 30 23:10:15 2019 +0600
+
+    PymySQL
+
+[33mcommit df5897f9f8aa6e919922ea9ed1be68788890cc67[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sat Jun 22 23:27:37 2019 +0600
+
+    Inheritence
+
+[33mcommit 56bd8855a228dd9ed6eaa0a6686eec7f6951aae1[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Fri Jun 14 23:49:59 2019 +0600
+
+    Exception
+
+[33mcommit d69ba611843455ca81ed4e0e005edc1902225c4d[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sat Jun 8 23:29:20 2019 +0600
+
+    Date & Time
+
+[33mcommit 344379291241e302f2d6052b5fe8cdf87c262b4f[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sat Jun 8 12:49:33 2019 +0600
+
+    Dictionaries
+
+[33mcommit bca8acfc320629947743d7d4019fb52c3485ee37[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Fri Jun 7 23:45:24 2019 +0600
+
+    Sequence
+
+[33mcommit e70301d792acd5ecd91ae2ca82ff8726671e1c50[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Fri Jun 7 15:51:09 2019 +0600
+
+    Strings
+
+[33mcommit 85d83e6ad714585a86c72c553735de882b013931[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Mon Jun 3 19:59:09 2019 +0600
+
+    Loops
+
+[33mcommit e8ac0deb70c1268f904fbdafbee1592067018805[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sun Jun 2 21:28:38 2019 +0600
+
+    Decision Constructs
+
+[33mcommit eec6f68e8fcde273766011c6b62eed1dc78b9d32[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sat Jun 1 23:42:20 2019 +0600
+
+    Working On Operators
+
+[33mcommit 7abaee2d00e9210ef4a97fad1d64f37fab0b3d20[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sat Jun 1 23:04:50 2019 +0600
+
+    Working On Operators
+
+[33mcommit 26d1717713f4c2bd2ca948cb533512f527901d8e[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sat Jun 1 22:21:52 2019 +0600
+
+    dataTypes Revisited
+
+[33mcommit f118e439852d1b4c854f5eba6ccd2969e2ed6277[m
+Author: Rakib <16103030@iubat.edu>
+Date:   Sat Jun 1 21:56:21 2019 +0600
+
+    dataTypes Revisited
+
+[33mcommit 4f0595161070048346a43d34d95e8a4188b2a76d[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Thu Mar 21 23:55:41 2019 +0600
+
+    Creating Filesystem and importing OpenpyXL Module
+
+[33mcommit 20660f0c275a384c175747d55a7431f50f7fdc0a[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Mon Mar 18 17:08:31 2019 +0600
+
+    Module and Exercise Related To Module
+
+[33mcommit 8acaf64b627479096ab69661ac71a74e51b04cf4[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Mon Mar 18 15:41:26 2019 +0600
+
+    Class And Inheritence
+
+[33mcommit d361e40f89376d833fa4415ab357a16c3adab2ed[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Sun Mar 17 12:09:05 2019 +0600
+
+    Emoji and Function
+
+[33mcommit 3d6b0ef94f1da710df1c8082147de676ae1a7bec[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Sun Mar 17 10:52:48 2019 +0600
+
+    Unpacking and Dictionaried
+
+[33mcommit d489aef942818d530d4ac94b2ed179bb89878018[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Sat Mar 16 17:30:10 2019 +0600
+
+    Covering Tupples
+
+[33mcommit b38a986101f3c7786b1ac7069f9ca7a6174a9f7f[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Sat Mar 16 00:01:43 2019 +0600
+
+    List Methods and Exercise
+
+[33mcommit 253d9651a57a6acdc54e03b032abbf5692dd129d[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Fri Mar 15 11:51:39 2019 +0600
+
+    Working ON loops
+
+[33mcommit 3250c7f45c3d56ca9c7d0b41d80a1f508bdabe47[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Wed Mar 13 19:50:02 2019 +0600
+
+    Number Guessing Game And Car Racing Game
+
+[33mcommit c3c512caa3c1f8d36e869a5a7dc02f9cbf388eec[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Tue Mar 12 23:07:47 2019 +0600
+
+    ConditinalOP Continued
+
+[33mcommit de88bdbf5d7d772379c35ce79ac761d160d87ec5[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Mon Mar 11 19:15:21 2019 +0600
+
+    Checking Condition and Logical operator
+
+[33mcommit 58f5ea9a332289b014c9b426a6ebeb3320e69fa2[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Mon Mar 11 12:59:09 2019 +0600
+
+    Practiced Arithmetic Operator, functions and module
+
+[33mcommit 728edb24010235b09904fd6d9cbaefaf5a04801c[m
+Author: Rakib Uddin <16103030@iubat.edu>
+Date:   Mon Mar 11 12:45:00 2019 +0600
+
+    Working with String, Variable
