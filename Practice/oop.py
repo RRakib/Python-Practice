@@ -13,12 +13,16 @@
 #         self.name = name
 #         self.rating = rating
 #     def average(self):
-#         result = 0
-#         for rate in self.rating:
-#             result += rate
-#         return result/len(self.rating)
+#         return sum(self.rating)/len(self.rating)
 #
 # course1 = Course('Bangla',[5,5,5,5,10])
 # print('Average of',course1.name,'is:', int(course1.average()))
 # course2 = Course('English',[10,10,10,10,10])
 # print('Average of',course2.name ,'is:', int(course2.average()))
+### Inner Class
+# class Car:
+#     class Engin:
+#         def __init__(self):
+#             print('Engine Started')
+# car1 = Car()
+# car1.Engin()
