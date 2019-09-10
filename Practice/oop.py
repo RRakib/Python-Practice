@@ -26,3 +26,13 @@
 #             print('Engine Started')
 # car1 = Car()
 # car1.Engin()
+################## Encapsulation
+class Student:
+    def __init__(self):
+        self.__id = 16103030
+        self.__name = 'Rakib Uddin'
+    def student_details(self):
+        print(self.__id)
+        print(self.__name)
+student1 = Student()
+student1.student_details()
