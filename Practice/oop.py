@@ -71,3 +71,24 @@
 # suzuki = Bike(200000,140,'No','Bike')
 # suzuki.drive()
 # print(vars(suzuki))
+### Method Overriding
+# class Vehical:
+#     def __init__(self, tire,wheel,type):
+#         self.tire = tire
+#         self.wheel = wheel
+#         self.type= type
+#     def drive(self):
+#         print('Driving a', self.type)
+# class Car(Vehical):
+#     def __init__(self,brand,model,tire,wheel):
+#         Vehical.__init__(self,tire,wheel)
+#         self.brand = brand
+#         self.model = model
+# class Bike(Vehical):
+#     def __init__(self,price,tire,wheel,type):
+#         Vehical.__init__(self,tire,wheel,type)
+#         self.price = price
+#     def drive(self):
+#         print('Driving Override')
+# suzuki = Bike(200000,140,'No','Bike')
+# suzuki.drive()
