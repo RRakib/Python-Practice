@@ -92,3 +92,32 @@
 #         print('Driving Override')
 # suzuki = Bike(200000,140,'No','Bike')
 # suzuki.drive()
+################## Polymorphism
+### Duck Type
+# class Duck:
+#     def talk(self):
+#         print('Quack Quack')
+# class Human:
+#     def talk(self):
+#         print('Talk')
+# def callTalk(obj):
+#     obj.talk()
+# obj1 = Duck()
+# callTalk(obj1)
+# obj2 = Human()
+# callTalk(obj2)
+### Dependency Injection
+# class Human:
+#     def __init__(self,obj):
+#         self.walk = obj
+#     def hfun(self):
+#         self.walk.run()
+# class Component:
+#     def __init__(self):
+#         self.lag = 'Lag'
+#     def run(self):
+#         print('Run using', self.lag)
+# obj1 = Component()
+# obj2 = Human(obj1)
+# obj2.hfun()
+################## Abstruction
