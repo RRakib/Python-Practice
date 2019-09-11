@@ -121,3 +121,29 @@
 # obj2 = Human(obj1)
 # obj2.hfun()
 ################## Abstruction
+# from abc import abstractclassmethod, ABC
+# class Vehical(ABC):
+#     def __init__(self, tire,wheel,type):
+#         self.tire = tire
+#         self.wheel = wheel
+#         self.type= type
+#     def drive(self):
+#         print('Driving a', self.type)
+#     @abstractclassmethod
+#     def abs(self):
+#         pass
+# class Car(Vehical):
+#     def __init__(self,brand,model,tire,wheel):
+#         Vehical.__init__(self,tire,wheel)
+#         self.brand = brand
+#         self.model = model
+# class Bike(Vehical):
+#     def __init__(self,price,tire,wheel,type):
+#         Vehical.__init__(self,tire,wheel,type)
+#         self.price = price
+#     def drive(self):
+#         print('Driving Override')
+#     def abs(self):
+#         print('Abstractmethod implemented')
+# suzuki = Bike(200000,140,'false','racing')
+# suzuki.abs()
