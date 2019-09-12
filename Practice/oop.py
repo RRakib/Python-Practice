@@ -1,4 +1,4 @@
-################## Class
+# ################# Class
 # class Product:
 #     def __init__(self,name,product,price):
 #         self.name = name
@@ -7,7 +7,7 @@
 #
 # product1 = vars(Product('Business','iPhone',500))
 # print(product1)
-### Avaerage Rating Course
+# ## Avaerage Rating Course
 # class Course:
 #     def __init__(self,name,rating):
 #         self.name = name
@@ -19,14 +19,15 @@
 # print('Average of',course1.name,'is:', int(course1.average()))
 # course2 = Course('English',[10,10,10,10,10])
 # print('Average of',course2.name ,'is:', int(course2.average()))
-### Inner Class
+# ## Inner Class
 # class Car:
 #     class Engin:
 #         def __init__(self):
 #             print('Engine Started')
 # car1 = Car()
 # car1.Engin()
-################## Encapsulation
+
+# ################# Encapsulation
 # class Student:
 #     def __init__(self):
 #         self.__id = 16103030
@@ -36,7 +37,7 @@
 # student1 = Student()
 # print(student1.student_details())
 # print(student1._Student__id)
-### Setter and Getter
+# ## Setter and Getter
 # class Student:
 #     def setId(self,id):
 #         self.id = id
@@ -51,7 +52,8 @@
 # student1.setName('Rakib Uddin')
 # student1.getId()
 # student1.getName()
-################## Inheritence
+
+# ################# Inheritence
 # class Vehical:
 #     def __init__(self, tire,wheel,type):
 #         self.tire = tire
@@ -71,7 +73,7 @@
 # suzuki = Bike(200000,140,'No','Bike')
 # suzuki.drive()
 # print(vars(suzuki))
-### Method Overriding
+# ## Method Overriding
 # class Vehical:
 #     def __init__(self, tire,wheel,type):
 #         self.tire = tire
@@ -92,8 +94,9 @@
 #         print('Driving Override')
 # suzuki = Bike(200000,140,'No','Bike')
 # suzuki.drive()
-################## Polymorphism
-### Duck Type
+
+# ################# Polymorphism
+# ## Duck Type
 # class Duck:
 #     def talk(self):
 #         print('Quack Quack')
@@ -106,7 +109,7 @@
 # callTalk(obj1)
 # obj2 = Human()
 # callTalk(obj2)
-### Dependency Injection
+# ## Dependency Injection
 # class Human:
 #     def __init__(self,obj):
 #         self.walk = obj
@@ -120,7 +123,8 @@
 # obj1 = Component()
 # obj2 = Human(obj1)
 # obj2.hfun()
-################## Abstruction
+
+# ################# Abstruction
 # from abc import abstractclassmethod, ABC
 # class Vehical(ABC):
 #     def __init__(self, tire,wheel,type):
