@@ -29,3 +29,7 @@
 #     print(wrong_age)
 # finally:
 #     print('You might have some problems but it still works')
+
+################ Logging
+# import logging
+# logging.error('Errors')
