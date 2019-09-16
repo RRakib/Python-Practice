@@ -9,6 +9,14 @@ test = 'I am Rakib'
 # result = re.findall(r'a\w', test)
 # print(result)
 
-################ Match
+# ################@# Match
 # result = re.match(r'R\w\w\w', test)
 # print(result)
+
+# ################@# Split
+# result = re.split(r"\s+",test)
+# print(result)
+
+# ################@# Substring
+result = re.sub(r'\s+','-', test)
+print(result)
