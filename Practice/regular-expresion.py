@@ -37,3 +37,8 @@ test = 'I am Rakib and i am a web developer'
 # ### {m,n} => Range
 # result = re.findall(r'a\w{1,2}', test)
 # print(result)
+
+# ################# Matching Dates
+# test = 'Today is 16-9-2019. It was a bad day'
+# result = re.findall(r'\d{1,2}-\d{1,2}-\d{1,4}', test)
+# print(result)
