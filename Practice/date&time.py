@@ -15,3 +15,7 @@ import calendar
 # print(calendar.isleap(2019))
 
 ############### Date and Time
+import time,datetime
+epoctime = time.time()
+print(time.ctime(epoctime))
+print(datetime.datetime.today())
