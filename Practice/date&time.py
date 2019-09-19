@@ -18,4 +18,6 @@ import calendar
 import time,datetime
 epoctime = time.time()
 print(time.ctime(epoctime))
+today = datetime.datetime.today()
 print(datetime.datetime.today())
+print('{}/{}/{}'.format(today.day,today.month,today.year))
